@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
   - cluster-admins-group.yaml
+  - cluster-admins-as-cluster-admin.yaml
   - openshift-gitops-operator-subscription.yaml
   - openshift-gitops-argocd.yaml
   - openshift-gitops-cluster-admin-crb.yaml
